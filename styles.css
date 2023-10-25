@@ -22,14 +22,14 @@ box-shadow: 0px 19px 25px 7px rgba(0, 70, 18, 0.25);
     width: 417px;
 height: 542px;
 flex-shrink: 0;
-
+border-radius: 9px 0px 0px 11px;
 background: url(bmi.png), rgb(255, 255, 255) 50% / cover no-repeat;
 
 /* lg */
-
+box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10);
 }
 .sub-container2{
-    width: 451px;
+    width: 410px;
 height: 542px;
 flex-shrink: 0;
 border-radius: 0px 10px 10px 0px;
@@ -119,7 +119,7 @@ flex-shrink: 0;
 margin-left: 10px;
 border-radius: 3.397px;
 border: 0.849px solid #95C6FF;
-font-size: 14.049px;
+font-size: 13.049px;
 }
 option {
 
