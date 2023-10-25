@@ -1,5 +1,5 @@
 
-    // Get references to HTML elements
+  
     var feetInput = document.getElementById("feet");
     var inchesInput = document.getElementById("inches");
     var weightInput = document.getElementById("weight");
