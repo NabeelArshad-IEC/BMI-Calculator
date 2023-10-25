@@ -8,20 +8,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     switch(bmiStatus) {
         case "Underweight":
-            bmiImage.src = "underweight.jpg"; // replace with your image path
-            body.style.backgroundColor = "blue"; // replace with your color
+            bmiImage.src = "underweight.png"; // replace with your image path
+            body.style.backgroundColor = "#38B6FF"; // replace with your color
             break;
         case "Normal weight":
             bmiImage.src = "normal.png"; // replace with your image path
-            body.style.backgroundColor = "green"; // replace with your color
+            body.style.backgroundColor = "#00BF63"; // replace with your color
             break;
         case "Overweight":
-            bmiImage.src = "overweight.jpg"; // replace with your image path
-            body.style.backgroundColor = "yellow"; // replace with your color
+            bmiImage.src = "overweight.png"; // replace with your image path
+            body.style.backgroundColor = "#FAC47E"; // replace with your color
             break;
         case "Obesity":
-            bmiImage.src = "obesity.jpg"; // replace with your image path
-            body.style.backgroundColor = "red"; // replace with your color
+            bmiImage.src = "obesity.png"; // replace with your image path
+            body.style.backgroundColor = "#FF5757"; // replace with your color
             break;
     }
 });

@@ -57,7 +57,7 @@ function checkBMI(bmi) {
         return "Obesity";
     }
     let bmiStatus = checkBMI(bmi);
-    let emoji = '';
+    
     switch(bmiStatus) {
         case "Underweight":
            
