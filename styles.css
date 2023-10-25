@@ -2,6 +2,7 @@ body{
     font-family: 'Quicksand', sans-serif !important;
     background-color: #1681FF;
 }
+
 .container{
     width: 868px;
     height: 542px;
@@ -21,11 +22,11 @@ box-shadow: 0px 19px 25px 7px rgba(0, 70, 18, 0.25);
     width: 417px;
 height: 542px;
 flex-shrink: 0;
-border-radius: 9px 0px 0px 11px;
-background: url(bmi.png), lightgray 50% / cover no-repeat;
+
+background: url(bmi.png), rgb(255, 255, 255) 50% / cover no-repeat;
 
 /* lg */
-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10);
+
 }
 .sub-container2{
     width: 451px;
@@ -34,7 +35,11 @@ flex-shrink: 0;
 border-radius: 0px 10px 10px 0px;
 background: #FFF;
     
-  
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 
 }
 h1{
@@ -58,7 +63,7 @@ p{
     color: #1B3F57;
 font-family: Inter;
 font-size: 18.049px;
-font-style: normal;
+font-style: 100px;
 font-weight: 500;
 line-height: 21.234px; /* 117.647% */
 margin-top: 42px;
@@ -68,23 +73,40 @@ flex-direction: row;
 align-items: center;
 
 }
-input{
- 
-display: flex;
-width: 112.198px;
-height: 20.769px;
-padding: 10.192px 13.59px;
-align-items: center;
-gap: 6.795px;
-flex-shrink: 0;
-padding: 10.192px 13.59px;
-align-items: center;
-gap: 6.795px;
-flex-shrink: 0;
-border-radius: 3.397px;
-border: 0.849px solid #95C6FF;
 
-margin-left: 10px;
+#weight{
+   
+    width: 112.198px;
+    height: 40.769px;
+    padding: 10.192px 13.59px;
+    align-items: center;
+    gap: 6.795px;
+    flex-shrink: 0;
+    padding: 10.192px 13.59px;
+    align-items: center;
+    gap: 6.795px;
+    flex-shrink: 0;
+    border-radius: 3.397px;
+    border: 0.849px solid #95C6FF;
+    font-size: 13.049px;
+    margin-left: 10px; 
+}
+#feet{
+   
+    width: 112.198px;
+    height: 40.769px;
+    padding: 10.192px 13.59px;
+    align-items: center;
+    gap: 6.795px;
+    flex-shrink: 0;
+    padding: 10.192px 13.59px;
+    align-items: center;
+    gap: 6.795px;
+    flex-shrink: 0;
+    border-radius: 3.397px;
+    border: 0.849px solid #95C6FF;
+    font-size: 13.049px;
+    margin-left: 10px; 
 }
 select{
     display: flex;
@@ -97,6 +119,7 @@ flex-shrink: 0;
 margin-left: 10px;
 border-radius: 3.397px;
 border: 0.849px solid #95C6FF;
+font-size: 14.049px;
 }
 option {
 

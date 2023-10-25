@@ -3,44 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="sub-container">
-      
-        </div>
-        <div class="sub-container2">
-            <h1>Calculate your body mass index</h1>
-           
-            <form id="bmiForm">
-                <p>Weight <span> <input id="weight" type="number" placeholder="Enter weight"></span>
-                    <select>
-                        <option value="kg">KG</option>
-                    </select>
-                </p>
+        <div class="row">
+            <div class="sub-container col-12 col-md-6">
               
-                <p>Height <span> <input id="feet" type="number" placeholder="Enter Height(ft)"></span>
-                    <select  id="inches">
-                        <option value="0" >0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                </p>
-                <button type="submit" id="convertButton">Calculate BMI</button>
-            </form>
-            <p id="result"></p>
+            </div>
+            <div class="sub-container2 col-12 col-md-6">
+                <h1>Calculate your body mass index</h1>
+                <form id="bmiForm">
+                    <p>Weight <span> <input id="weight" type="number" placeholder="Enter weight"></span>
+                        <select>
+                            <option value="kg">KG</option>
+                        </select>
+                    </p>
+                    <p>Height <span> <input id="feet" type="number" placeholder="Enter Height"></span>
+                        <select  id="inches">
+                            <option value="0" >0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </p>
+                    <button type="submit" id="convertButton">Calculate BMI</button>
+                </form>
+                <p id="result"></p>
+            </div>
         </div>
     </div>
     <script src="main.js"></script>
